@@ -1,0 +1,92 @@
+.main-content {
+  min-height: 1000px;
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 300px 700px;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.right-content {
+  padding: 30px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(218, 218, 218);
+}
+.left-content {
+  padding: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #090083;
+  text-align: center;
+}
+.profile {
+  padding: 20px 50px;
+}
+.name {
+  padding-bottom: 5px;
+}
+.designation {
+  padding: 10px;
+  color: #00e1ff;
+}
+.description {
+  padding: 10px;
+}
+.personal-details {
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+}
+.social-media {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.fa-instagram {
+  padding-left: 30px;
+  color: white;
+}
+.fa-linkedin {
+  padding-left: 30px;
+  color: white;
+}
+.fa-github {
+  padding-left: 30px;
+  color: white;
+}
+.fa-twitter-square {
+  padding-left: 30px;
+  color: white;
+}
+.mob {
+  padding-bottom: 10px;
+}
+.email {
+  padding-bottom: 10px;
+}
+.address {
+  padding-bottom: 10px;
+}
+.skills {
+  color: white;
+  padding-top: 40px;
+}
+.skills-content {
+  text-align: left;
+  padding: 20px;
+}
+.progress1 {
+  align-items: right;
+}
+.right-main-content {
+  color: black;
+  text-align: justify;
+}
